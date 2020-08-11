@@ -27,7 +27,7 @@ int main()
        if (number > max_number){ max_number = number; }
        
        if (int(numvector.size()) < 1 ){
-       min_number = numvector[0];}
+       min_number = numvector[0];}  // error - wrong number vector element
        
        if (min_number > number){ min_number = number; }
    }
